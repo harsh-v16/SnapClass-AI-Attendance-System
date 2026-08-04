@@ -22,7 +22,7 @@ A modern attendance management system that automates classroom attendance using 
 
 **Live Application:**
 
-
+https://ai-attendance-project-landing-bay.vercel.app/
 
 ---
 
