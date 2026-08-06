@@ -34,6 +34,10 @@ def voice_attendance_dialog(selected_subject_id):
             if not candidates_dict:
                 st.error('No enrolled students have voice profiles registerd')
                 return
+                
+            if not audio_data:
+                st.warning("Please record audio before clicking Analyze!")
+                return
             
             audio_bytes = audio_data.read()
 
